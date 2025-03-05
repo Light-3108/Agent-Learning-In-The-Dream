@@ -36,7 +36,7 @@ Video (v model only)<br>
 Couldn't do great on sharp turns <br>
 Unstable, offcourse, just observation of present time-step is given <br>
 
-[Watch the second video](https://drive.google.com/file/d/10dYpxIWT-6DsF_wcpvhRORZEiQpiqNIM/view?usp=drive_link)  
+![Demo](vonly.gif) 
 
 Now I trained using both V and M model. <br>
 
