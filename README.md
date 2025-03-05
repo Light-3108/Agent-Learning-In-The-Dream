@@ -36,7 +36,7 @@ Video (v model only)<br>
 Couldn't do great on sharp turns <br>
 Unstable, offcourse, just observation of present time-step is given <br>
 
-![Demo](vonly (2).gif) 
+![Demo](vonly (2).gif)
 
 Now I trained using both V and M model. <br>
 
@@ -65,7 +65,7 @@ is enough for learning the policy (atleast for relatively simple environments)
 
 Video,   using both V and M model<br>
 
-![Demo](vandm.gif) 
+![Demo](vandm.gif)
 
 
 
