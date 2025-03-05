@@ -32,7 +32,11 @@ Second graph, V model only<br>
 we can cleary see the sample effeciency is improved<br>
 
 
-Video (v model only)
+Video (v model only)<br>
+Couldn't do great on sharp turns <br>
+Unstable, offcourse, just observation of present time-step is given <br>
+
+[Watch the video]([https://drive.google.com/drive/home?dmr=1&ec=wgc-drive-globalnav-goto](https://drive.google.com/file/d/10dYpxIWT-6DsF_wcpvhRORZEiQpiqNIM/view?usp=drive_link)) <br>
 
 Now I trained using both V and M model. <br>
 
@@ -49,9 +53,12 @@ Used CMA-ES for training the policy here. <br>
 Generation Vs Reward Graph<br>
 ![image](https://github.com/user-attachments/assets/4df1e995-8f4e-4a63-818b-d841142f48e3)
 
+It seems information from the hidden-state (which have past history informations of agent states) and current information that is Z (latent represntation)<br>
+is enough for learning the policy (atleast for relatively simple environments)
+
 Video,   using both V and M model<br>
 
-
+[Watch the video]([https://drive.google.com/drive/home?dmr=1&ec=wgc-drive-globalnav-goto](https://drive.google.com/file/d/1ZU_Mfs8-UYy_dWiCFNCDaWFoo2KYBTi7/view?usp=drive_link)) <br>
 
 
 We can use the mdn-rnn to simulate entire episodes in it, itselves. which we can say we can learn the policy in the dream.<br>
