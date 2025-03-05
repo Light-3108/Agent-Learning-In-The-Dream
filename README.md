@@ -36,7 +36,7 @@ Video (v model only)<br>
 Couldn't do great on sharp turns <br>
 Unstable, offcourse, just observation of present time-step is given <br>
 
-[Watch the video]([https://drive.google.com/drive/home?dmr=1&ec=wgc-drive-globalnav-goto](https://drive.google.com/file/d/10dYpxIWT-6DsF_wcpvhRORZEiQpiqNIM/view?usp=drive_link)) <br>
+[Watch the second video](https://drive.google.com/file/d/10dYpxIWT-6DsF_wcpvhRORZEiQpiqNIM/view?usp=drive_link)  
 
 Now I trained using both V and M model. <br>
 
@@ -58,11 +58,12 @@ is enough for learning the policy (atleast for relatively simple environments)
 
 Video,   using both V and M model<br>
 
-[Watch the video]([https://drive.google.com/drive/home?dmr=1&ec=wgc-drive-globalnav-goto](https://drive.google.com/file/d/1ZU_Mfs8-UYy_dWiCFNCDaWFoo2KYBTi7/view?usp=drive_link)) <br>
+[Watch the video](https://drive.google.com/file/d/1ZU_Mfs8-UYy_dWiCFNCDaWFoo2KYBTi7/view?usp=drive_link)<br>
 
 
-We can use the mdn-rnn to simulate entire episodes in it, itselves. which we can say we can learn the policy in the dream.<br>
-when transfering back the policy in the actual environment it performes surprisingly well. <br>
+
+We can use the mdn-rnn to simulate entire episodes in it, itselves. which we can say we are learning the policy in the dream.<br>
+when transfering back the policy in the actual environment it performs surprisingly well. <br>
 I may try it in the future.<br>
 
 Also VAE could be improved to reconstruct or give importance in those regions which are reward relavents (meaning which are important to get max rewards)<br>
