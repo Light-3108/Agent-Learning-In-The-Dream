@@ -20,7 +20,7 @@ Hope is that it increases sample effeciency<br>
 
 
 Trained the agent Just using V model. and compare to the old training method (using CNN to extract the features and learn the policy)<br>
-Graphs so better reward and faster convergence using world model. (here V only)<br>
+Graphs shows better reward and faster convergence using world model. (here V only)<br>
 
 
 First graph, Normal method<br>
@@ -32,6 +32,7 @@ Second graph, V model only<br>
 we can cleary see the sample effeciency is improved<br>
 
 
+Video (v model only)
 
 Now I trained using both V and M model. <br>
 
