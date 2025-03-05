@@ -6,8 +6,8 @@ World model architecture<br>
 ![image](https://github.com/user-attachments/assets/c312ecf1-846c-441b-ab42-8ccbbe85dd95)<br>
 
 V(vision) is used to compress the observations to latent representation<br>
-M(Memeory) is used to learn the environment dynamcics<br>
-C(controller) take the input, which is a learned feature of the environment and gives action which gives max expected reward if the learned controller is optimal<br>
+M(Memeory) is used to learn the environment dynamics<br>
+C(controller) takes the input, which is a learned feature of the environment and gives action which gives max expected reward (if the learned controller is optimal or good)<br>
 
 
 For V.<br>
@@ -42,6 +42,13 @@ Now I trained using both V and M model. <br>
 
 M model<br>
 ![image](https://github.com/user-attachments/assets/0fd73825-f700-464a-81b3-576310fead83)
+
+Trained such that it predicts next state latent represntation.<br>
+Hence this training method forces the network to learn the environment dynamcis<br>
+
+Fig, predicted latent states by the mdn-rnn network (M - model ). (It is decoded so we can make sense seeing it)
+
+![image](https://github.com/user-attachments/assets/eda367c2-0d0d-45ae-a2e7-21fcda1404db)
 
 Overall architecture<br>
 ![image](https://github.com/user-attachments/assets/ef31d8d8-00b6-4ed9-a3b9-81c2b8e58e3e)
